@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">XML Intents</string>
+    <string name="intent_share">Compartir</string>
+    <string name="intent_alarm">Alarma</string>
+    <string name="intent_celendar">Calendario</string>
+    <string name="intent_camera">Camara</string>
+    <string name="intent_files">Archivos</string>
+    <string name="intent_setings">Configuraciones</string>
+    <string name="intent_contacts">COntatctos</string>
+    <string name="intent_call">Marcar</string>
+    <string name="intent_email">Email</string>
+    <string name="intent_sms">Sms</string>
+    <string name="intent_maps">Mapas</string>
+    <string name="intent_music">Musica</string>
+    <string name="intent_search">Buscar</string>
+    <string name="intent_web">Web</string>
+</resources>

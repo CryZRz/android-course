@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Life Cicle</string>
+    <string name="title_second_activity">Second activity</string>
+    <string name="title_dialog">Dialog</string>
+</resources>

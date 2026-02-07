@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_lines_description">
+        5
+    </integer>
+    <integer name="max_lines_message">
+        5
+    </integer>
+</resources>

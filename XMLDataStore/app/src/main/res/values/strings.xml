@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">XML DataStore</string>
+    <string name="hint_country">Pais</string>
+    <string name="btn_add_country">Añadir</string>
+    <string name="hint_username">Nombre de usuario</string>
+    <string name="helper_required">Requerido</string>
+
+    <string name="dialog_title">Registro de usuario</string>
+    <string name="dialog_confirm">Registrar</string>
+    <string name="register_success">Usuario registrado</string>
+    <string name="register_invalid">Usuario registrado</string>
+    <string name="register_valid">Ingrese un nombre</string>
+
+    <string name="main_title">Hola %s</string>
+</resources>

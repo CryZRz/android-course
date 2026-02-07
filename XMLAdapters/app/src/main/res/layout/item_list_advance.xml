@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/common_padding_default"
+        android:layout_marginTop="@dimen/common_padding_list_item_3_vertical"
+        app:cardCornerRadius="@dimen/common_padding_default"
+        app:strokeWidth="@dimen/common_padding_nano"
+        app:strokeColor="@color/pink"
+        >
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="@dimen/item_list_img_size"
+            android:layout_height="@dimen/item_list_img_size"
+            android:background="#ccc"
+            />
+    </com.google.android.material.card.MaterialCardView>
+    <ImageView
+        android:id="@+id/trailingIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_favorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cvImage"
+        android:layout_marginEnd="@dimen/common_padding_default"
+        />
+    <TextView
+        android:id="@+id/overlineText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cvImage"
+        app:layout_constraintEnd_toStartOf="@id/trailingIcon"
+        app:layout_constraintTop_toTopOf="@id/cvImage"
+        android:layout_marginHorizontal="@dimen/common_padding_default"
+        tools:text="Hola mundo"
+        android:textAppearance="?attr/textAppearanceLabelSmall"
+        />
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Some main text...."
+        app:layout_constraintStart_toStartOf="@id/overlineText"
+        app:layout_constraintEnd_toEndOf="@id/overlineText"
+        app:layout_constraintTop_toBottomOf="@id/overlineText"
+        android:textAppearance="?attr/textAppearanceLabelMedium"
+        />
+    <TextView
+        android:id="@+id/secondaryText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Some main text.... Some main text.... Some main text.... Some main text.... Some main text...."
+        app:layout_constraintStart_toStartOf="@id/mainText"
+        app:layout_constraintEnd_toEndOf="@id/mainText"
+        app:layout_constraintTop_toBottomOf="@id/mainText"
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:maxLines="2"
+        android:ellipsize="end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="12dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:background="#ccc"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
