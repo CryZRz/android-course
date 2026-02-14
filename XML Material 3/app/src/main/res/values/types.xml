@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CrBodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/merriweather</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+    <style name="CrBodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+    <style name="CrBodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/merriweather_italic</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="lineHeight">18sp</item>
+        <item name="android:letterSpacing">0.12</item>
+    </style>
+    <style name="CrLabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/roboto_italic</item>
+    </style>
+
+    <style name="CrTitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/roboto_italic</item>
+        <item name="android:textSize">28sp</item>
+        <item name="lineHeight">32sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

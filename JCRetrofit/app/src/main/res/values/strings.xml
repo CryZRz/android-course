@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JC Retrofit</string>
+    <string name="main_login_title">Inciar sesion</string>
+    <string name="main_hint_email">Email</string>
+    <string name="main_hint_password">Contraseña</string>
+    <string name="main_btn_login">Entrar</string>
+    <string name="common_error_server">Error en la peticion</string>
+    <string name="main_error_response">Error en la respuesta</string>
+    <string name="main_switch_login">Login</string>
+    <string name="main_switch_register">Register</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="profile_error_user_not_found">Usuario no encontrado</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="users_title">Usuarios</string>
+</resources>

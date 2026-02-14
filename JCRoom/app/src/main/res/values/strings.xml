@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">JC Room</string>
+
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="hint_name">Nombre</string>
+    <string name="supporting_required">Obligatorio</string>
+    <string name="main_efab_add">Añadir</string>
+    <string name="main_menu_import">Imporat datos default</string>
+    <string name="main_import_success">Datos insertados con exito</string>
+    <string name="main_import_error">Error al importar datos default</string>
+    <string name="add_title">Añadir insecto</string>
+    <string name="add_btn_save">Guardar</string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name="add_save_error">Error al guardar el insecto\n</string>
+    <string name="login_title">Iniciar sesion</string>
+    <string name="login_hint_email">email</string>
+    <string name="login_hint_pin">pin</string>
+    <string name="login_btn_login">Entrar</string>
+    <string name="login_btn_register">Registrar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_register_error">Error revise sus datos</string>
+    <string name="login_error">Email or user incorrect</string>
+    <string name="register_title">Registro de usuario</string>
+    <string name="login_hint_name">Nombre</string>
+    <string name="login_hint_lastname">Apellidos</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="main_message_welcome">Hola %s</string>
+    <string name="register_error_is_register">Email ya registrado</string>
+    <string name="main_insect_delete_success">Insecto eliminado</string>
+    <string name="main_insect_delete_error">No se pudo eliminar</string>
+    <string name="dialog_msg_warning">Advertencia: esta accion no podra revertirse</string>
+    <string name="dialog_delete_title">Eliminar insecto</string>
+    <string name="dialog_delete_confirm">Eliminar</string>
+    <string name="main_menu_users">Ver otros creadores</string>
+    <string name="main_delete_import">Borrar datos default</string>
+    <string name="main_menu_delete_mydata">Borrar usuario y datos</string>
+</resources>

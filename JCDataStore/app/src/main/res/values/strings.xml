@@ -13,4 +13,6 @@
 
     <string name="main_title">Hola %s</string>
     <string name="add_country_error">Error, contacte al desarrollador</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancelar</string>
 </resources>
